@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Pick up where you left off | Quick Degree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* Premium Palette */
+  --paper: #F8FAFC;
+  --panel: #FFFFFF;
+  --sky: #F1F5F9;
+  --sky-accent: #E2E8F0;
+  --ink: #0F172A;
+  --ink-soft: #475569;
+  --ink-muted: #64748B;
+  --line: #E2E8F0;
+  --line-strong: #CBD5E1;
+  
+  --blue: #0072C6;
+  --blue-hover: #005FA3;
+  --blue-gradient: linear-gradient(135deg, #0072C6 0%, #1D4ED8 100%);
+  --blue-light: #EFF6FF;
+  --blue-text: #0284C7;
+  
+  --navy-deep: #0B132B;
+  --navy-panel: #0F172A;
+  --navy-card: #1E293B;
+  
+  --orange: #FF7F00;
+  --orange-hover: #E06F00;
+  --orange-light: #FFF7ED;
+  --hl: rgba(255, 127, 0, 0.28);
+  --on-orange: #0F1A3D;
+  
+  --wa: #10B981;
+  --wa-hover: #059669;
+  --wa-ink: #FFFFFF;
+  --wa-glow: rgba(16, 185, 129, 0.25);
+  
+  --card-blue: #0072C6;
+  --card-navy: #0F172A;
+  --card-orange: #FF7F00;
+  --on-color: #FFFFFF;
+  
+  --mark: url("data:image/png;base64,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 ");
+  
+  --display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --wrap: 1140px;
+  
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #090D16;
+    --panel: #111827;
+    --sky: #1E293B;
+    --sky-accent: #334155;
+    --ink: #F8FAFC;
+    --ink-soft: #CBD5E1;
+    --ink-muted: #94A3B8;
+    --line: #1E293B;
+    --line-strong: #334155;
+    
+    --blue-light: #1E3A8A;
+    --blue-text: #38BDF8;
+    --hl: rgba(255, 127, 0, 0.4);
+    
+    --wa: #10B981;
+    --wa-hover: #059669;
+    --wa-ink: #FFFFFF;
+    
+    --card-navy: #1E293B;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #090D16;
+  --panel: #111827;
+  --sky: #1E293B;
+  --sky-accent: #334155;
+  --ink: #F8FAFC;
+  --ink-soft: #CBD5E1;
+  --ink-muted: #94A3B8;
+  --line: #1E293B;
+  --line-strong: #334155;
+  
+  --blue-light: #1E3A8A;
+  --blue-text: #38BDF8;
+  --hl: rgba(255, 127, 0, 0.4);
+  
+  --wa: #10B981;
+  --wa-hover: #059669;
+  --wa-ink: #FFFFFF;
+  
+  --card-navy: #1E293B;
+}
+
+html { 
+  scroll-padding-top: 80px; 
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%; 
+  text-size-adjust: 100%; 
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0; 
+  background: var(--paper); 
+  color: var(--ink);
+  font-family: var(--body); 
+  font-size: 17px; 
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 92px;
+  overflow-x: hidden;
+}
+
+img, svg { max-width: 100%; display: block; }
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; }
+
+h1, h2, h3 { 
+  font-family: var(--display); 
+  margin: 0; 
+  letter-spacing: -0.025em; 
+  line-height: 1.15; 
+}
+h1 { font-size: clamp(2.2rem, 5.2vw, 3.6rem); font-weight: 800; }
+h2 { font-size: clamp(1.65rem, 3.8vw, 2.35rem); font-weight: 800; }
+h3 { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.015em; }
+
+.wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+.mark { display: inline-block; background: var(--mark) center / contain no-repeat; flex: none; }
+
+/* Micro-animations & utility classes */
+:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; border-radius: 4px; }
+
+/* Scroll Animation Base */
+.fade-up {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.fade-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+.stagger-1 { transition-delay: 0.1s; }
+.stagger-2 { transition-delay: 0.2s; }
+.stagger-3 { transition-delay: 0.3s; }
+.stagger-4 { transition-delay: 0.4s; }
+
+/* Header & Navigation */
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(248, 250, 252, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+:root[data-theme="dark"] .top,
+@media (prefers-color-scheme: dark) {
+  .top {
+    background: rgba(9, 13, 22, 0.85);
+    border-bottom: 1px solid rgba(30, 41, 59, 0.8);
+  }
+}
+.top.scrolled {
+  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08);
+}
+.top .wrap { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 16px; 
+  min-height: 72px; 
+}
+.brand { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+  text-decoration: none; 
+  min-height: 44px; 
+  transition: opacity 0.2s ease;
+}
+.brand:hover { opacity: 0.9; }
+.brand .mark { width: 42px; height: 32px; filter: drop-shadow(0 2px 4px rgba(0,114,198,0.2)); }
+.brand b { 
+  font-family: var(--display); 
+  font-weight: 800; 
+  font-size: 1.15rem; 
+  letter-spacing: 0.04em; 
+  color: var(--ink);
+}
+
+.top-right-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-links {
+  display: none;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 840px) {
+  .nav-links { display: flex; }
+}
+.nav-links a {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--blue); }
+
+.top-link {
+  display: inline-flex; 
+  align-items: center; 
+  gap: 8px;
+  min-height: 44px; 
+  padding: 0 20px; 
+  border-radius: 999px;
+  font-weight: 700; 
+  font-size: 0.92rem; 
+  color: #FFFFFF;
+  background: var(--wa);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 4px 14px var(--wa-glow);
+  transition: all 0.25s ease;
+}
+.top-link:hover { 
+  background: var(--wa-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px var(--wa-glow);
+}
+.top-link svg { width: 18px; height: 18px; fill: currentColor; }
+
+/* Buttons */
+.btn-wa {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 12px; 
+  width: 100%;
+  background: var(--wa); 
+  color: var(--wa-ink); 
+  text-decoration: none; 
+  cursor: pointer; 
+  border: 0;
+  font-family: var(--body); 
+  font-weight: 700; 
+  font-size: 1.08rem; 
+  min-height: 56px;
+  padding: 14px 28px; 
+  border-radius: 999px; 
+  box-shadow: 0 8px 24px var(--wa-glow), 0 2px 4px rgba(0,0,0,0.06);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.btn-wa:hover { 
+  background: var(--wa-hover); 
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px var(--wa-glow), 0 4px 8px rgba(0,0,0,0.1);
+}
+.btn-wa:active { 
+  transform: translateY(1px); 
+  box-shadow: 0 4px 12px var(--wa-glow); 
+}
+.btn-wa svg { width: 24px; height: 24px; fill: currentColor; flex: none; transition: transform 0.2s ease; }
+.btn-wa:hover svg { transform: scale(1.08) rotate(-4deg); }
+
+/* Hero Section */
+.hero { 
+  position: relative;
+  padding: 32px 0 60px; 
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0,114,198,0.08) 0%, rgba(255,127,0,0.04) 50%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+.hero-grid { 
+  position: relative;
+  z-index: 1;
+  display: grid; 
+  gap: 40px; 
+}
+.pill {
+  display: inline-flex; 
+  align-items: center;
+  gap: 8px;
+  background: var(--orange-light); 
+  color: #C2410C;
+  border: 1px solid rgba(255, 127, 0, 0.25);
+  font-weight: 700; 
+  font-size: 0.88rem; 
+  padding: 6px 16px; 
+  border-radius: 999px; 
+  margin-bottom: 20px;
+  letter-spacing: 0.01em;
+}
+:root[data-theme="dark"] .pill,
+@media (prefers-color-scheme: dark) {
+  .pill {
+    background: rgba(255, 127, 0, 0.15);
+    color: #FF9D3B;
+  }
+}
+.pill::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
+h1 em {
+  font-style: normal; 
+  position: relative;
+  color: var(--blue);
+  background: linear-gradient(120deg, var(--blue) 0%, #1D4ED8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 em::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 8px;
+  background: var(--hl);
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.sub { 
+  margin-top: 20px; 
+  font-size: 1.12rem; 
+  line-height: 1.65;
+  color: var(--ink-soft); 
+  max-width: 36em; 
+}
+.checks { 
+  margin: 28px 0 0; 
+  padding: 0; 
+  list-style: none; 
+  display: grid; 
+  gap: 14px; 
+}
+.checks li { 
+  padding-left: 34px; 
+  position: relative; 
+  font-weight: 600; 
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+.checks li::before {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  top: 0.25em; 
+  width: 22px; 
+  height: 22px; 
+  border-radius: 50%;
+  background: var(--blue-light);
+}
+:root[data-theme="dark"] .checks li::before {
+  background: rgba(2, 132, 199, 0.2);
+}
+.checks li::after {
+  content: ""; 
+  position: absolute; 
+  left: 7px; 
+  top: 0.52em; 
+  width: 7px; 
+  height: 4px;
+  border-left: 2px solid var(--blue); 
+  border-bottom: 2px solid var(--blue); 
+  transform: rotate(-45deg);
+}
+
+/* Chat Experience */
+.chat-card { 
+  max-width: 500px; 
+  width: 100%; 
+  margin: 0 auto;
+}
+.chat {
+  background: var(--panel); 
+  border: 1px solid var(--line-strong); 
+  border-radius: 28px; 
+  overflow: hidden;
+  box-shadow: 0 20px 50px -15px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(255,255,255,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.chat:hover {
+  box-shadow: 0 25px 60px -15px rgba(15, 23, 42, 0.16);
+}
+.chat-head { 
+  display: flex; 
+  align-items: center; 
+  gap: 14px; 
+  padding: 16px 20px; 
+  background: linear-gradient(135deg, var(--card-navy) 0%, #1E293B 100%); 
+  color: #fff; 
+  position: relative;
+}
+.chat-head .av { 
+  width: 46px; 
+  height: 46px; 
+  border-radius: 50%; 
+  background: #fff; 
+  display: grid; 
+  place-items: center; 
+  flex: none; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: relative;
+}
+.chat-head .av::after {
+  content: "";
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #10B981;
+  border: 2px solid #1E293B;
+}
+.chat-head .av .mark { width: 32px; height: 25px; }
+.chat-head b { display: block; font-family: var(--display); font-size: 1.05rem; line-height: 1.25; font-weight: 700; }
+.chat-head div > span { 
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem; 
+  color: #94A3B8; 
+  line-height: 1.3; 
+  margin-top: 3px; 
+}
+.chat-body {
+  background: var(--sky); 
+  padding: 22px 18px 16px; 
+  min-height: 260px;
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px;
+  max-height: 380px;
+  overflow-y: auto;
+}
+.msg {
+  max-width: 88%; 
+  padding: 13px 18px; 
+  border-radius: 20px; 
+  font-size: 0.98rem; 
+  line-height: 1.5;
+  animation: pop 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.msg.them { 
+  align-self: flex-start; 
+  background: var(--panel); 
+  color: var(--ink);
+  border: 1px solid var(--line); 
+  border-top-left-radius: 6px; 
+}
+.msg.me { 
+  align-self: flex-end; 
+  background: var(--blue-gradient); 
+  color: #fff; 
+  border-top-right-radius: 6px; 
+  font-weight: 600; 
+}
+.typing { 
+  align-self: flex-start; 
+  display: flex; 
+  align-items: center;
+  gap: 6px; 
+  padding: 14px 18px; 
+  background: var(--panel); 
+  border: 1px solid var(--line); 
+  border-radius: 20px; 
+  border-top-left-radius: 6px; 
+}
+.typing i { 
+  width: 7px; 
+  height: 7px; 
+  border-radius: 50%; 
+  background: var(--ink-muted); 
+  animation: blink 1.2s infinite ease-in-out; 
+}
+.typing i:nth-child(2) { animation-delay: 0.2s; }
+.typing i:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes pop { from { opacity: 0; transform: translateY(12px) scale(0.96); } to { opacity: 1; transform: none; } }
+@keyframes blink { 0%, 80%, 100% { opacity: 0.3; transform: scale(0.9); } 40% { opacity: 1; transform: scale(1.1); } }
+
+.replies { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  gap: 8px; 
+  padding: 16px 18px; 
+  background: var(--panel); 
+  border-top: 1px solid var(--line); 
+}
+.reply {
+  min-height: 42px; 
+  padding: 8px 16px; 
+  border-radius: 999px; 
+  cursor: pointer;
+  font-family: var(--body); 
+  font-weight: 600; 
+  font-size: 0.92rem; 
+  color: var(--ink-soft);
+  background: var(--paper); 
+  border: 1.5px solid var(--line-strong);
+  transition: all 0.2s ease;
+}
+.reply:hover { 
+  background: var(--blue-light); 
+  color: var(--blue);
+  border-color: var(--blue);
+  transform: translateY(-1px);
+}
+.reply[aria-pressed="true"] { 
+  background: var(--blue); 
+  color: #fff; 
+  border-color: var(--blue);
+  box-shadow: 0 4px 12px rgba(0, 114, 198, 0.3);
+}
+.chat-cta { margin-top: 20px; }
+
+/* Trust Strip */
+.strip { 
+  background: var(--panel); 
+  border-top: 1px solid var(--line); 
+  border-bottom: 1px solid var(--line); 
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+}
+.strip ul { 
+  list-style: none; 
+  margin: 0; 
+  padding: 24px 0; 
+  display: grid; 
+  gap: 20px; 
+}
+.strip li { 
+  display: flex; 
+  align-items: center; 
+  gap: 14px; 
+  font-weight: 700; 
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+.strip svg { 
+  width: 28px; 
+  height: 28px; 
+  flex: none; 
+  fill: none; 
+  stroke: var(--blue); 
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  background: var(--blue-light);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* General Sections */
+section { padding: 64px 0; }
+.sec-head { max-width: 42em; margin-bottom: 36px; }
+.sec-head p { margin-top: 14px; color: var(--ink-soft); font-size: 1.1rem; }
+
+.grid { 
+  display: grid; 
+  gap: 20px; 
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); 
+}
+
+/* Audience Cards ("Who") */
+.who {
+  background: var(--panel); 
+  border: 1px solid var(--line); 
+  border-radius: 24px; 
+  padding: 28px 24px;
+  border-top: 4px solid var(--orange);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.who:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -10px rgba(15, 23, 42, 0.08);
+}
+.who h3 { color: var(--ink); font-size: 1.22rem; }
+.who p { margin-top: 10px; color: var(--ink-soft); font-size: 0.98rem; line-height: 1.6; }
+
+/* Three Routes Cards */
+.band { background: var(--sky); }
+.routes { display: grid; gap: 24px; margin-top: 36px; }
+.route { 
+  border-radius: 28px; 
+  padding: 36px 30px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+  color: var(--on-color); 
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.route:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.14);
+}
+.route p { opacity: 0.94; line-height: 1.65; font-size: 1.02rem; }
+.route .best { 
+  margin-top: 12px; 
+  align-self: flex-start; 
+  background: rgba(255, 255, 255, 0.18); 
+  backdrop-filter: blur(8px);
+  padding: 8px 16px; 
+  border-radius: 12px; 
+  font-weight: 700; 
+  font-size: 0.9rem; 
+  border: 1px solid rgba(255,255,255,0.25);
+}
+.route.r1 { background: linear-gradient(145deg, #0072C6 0%, #1D4ED8 100%); }
+.route.r2 { background: linear-gradient(145deg, #0F172A 0%, #1E293B 100%); }
+.route.r3 { 
+  background: linear-gradient(145deg, #FF7F00 0%, #EA580C 100%); 
+  color: var(--on-orange); 
+}
+.route.r3 .best { 
+  background: rgba(15, 26, 61, 0.12); 
+  color: #0F1A3D;
+  border-color: rgba(15, 26, 61, 0.2);
+}
+.route .no { 
+  font-family: var(--display); 
+  font-weight: 800; 
+  font-size: 0.85rem; 
+  letter-spacing: 0.1em; 
+  opacity: 0.85; 
+  text-transform: uppercase;
+}
+.route h3 { font-size: 1.6rem; }
+
+/* Document Support */
+.docs .doc {
+  display: flex; 
+  gap: 18px; 
+  align-items: flex-start; 
+  background: var(--panel);
+  border: 1px solid var(--line); 
+  border-radius: 24px; 
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.docs .doc:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+}
+.docs svg { 
+  width: 36px; 
+  height: 36px; 
+  flex: none; 
+  fill: none; 
+  stroke: var(--orange); 
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  background: var(--orange-light);
+  padding: 7px;
+  border-radius: 12px;
+}
+:root[data-theme="dark"] .docs svg {
+  background: rgba(255, 127, 0, 0.15);
+}
+.docs h3 { font-size: 1.15rem; }
+.docs p { margin-top: 6px; color: var(--ink-soft); font-size: 0.98rem; }
+
+/* Process Roadmap */
+.split { display: grid; gap: 40px; }
+.road { 
+  margin: 0; 
+  padding: 0; 
+  list-style: none; 
+  counter-reset: r; 
+  position: relative;
+}
+.road li { 
+  counter-increment: r; 
+  position: relative; 
+  padding: 2px 0 32px 68px; 
+  min-height: 64px; 
+}
+.road li::before {
+  content: counter(r); 
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  width: 48px; 
+  height: 48px; 
+  border-radius: 50%;
+  background: var(--blue-gradient); 
+  color: #fff; 
+  font-family: var(--display); 
+  font-weight: 800;
+  font-size: 1.1rem;
+  display: grid; 
+  place-items: center; 
+  box-shadow: 0 0 0 6px var(--sky), 0 4px 12px rgba(0,114,198,0.25);
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+.road li:hover::before {
+  transform: scale(1.08);
+}
+.road li::after { 
+  content: ""; 
+  position: absolute; 
+  left: 23px; 
+  top: 50px; 
+  bottom: 0px; 
+  border-left: 2px dashed var(--line-strong); 
+  z-index: 1;
+}
+.road li:last-child { padding-bottom: 0; }
+.road li:last-child::after { display: none; }
+.road li:last-child::before { 
+  background: linear-gradient(135deg, #FF7F00 0%, #EA580C 100%); 
+  color: #fff; 
+  box-shadow: 0 0 0 6px var(--sky), 0 4px 12px rgba(255,127,0,0.3);
+}
+.road b { 
+  font-family: var(--display); 
+  font-size: 1.15rem; 
+  display: block; 
+  color: var(--ink);
+}
+.road span { color: var(--ink-soft); font-size: 0.98rem; margin-top: 4px; display: block; }
+.here { 
+  display: inline-block; 
+  margin-left: 10px; 
+  background: var(--orange); 
+  color: #fff; 
+  font-size: 0.75rem; 
+  font-weight: 800; 
+  padding: 3px 12px; 
+  border-radius: 999px; 
+  vertical-align: middle; 
+  font-family: var(--body); 
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(255,127,0,0.3);
+}
+
+/* Why Choose Section */
+.why .tile { 
+  background: var(--panel); 
+  border: 1px solid var(--line);
+  border-radius: 24px; 
+  padding: 28px 24px; 
+  box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.why .tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+}
+.why .tile h3 { font-size: 1.18rem; color: var(--ink); }
+.why .tile p { margin-top: 8px; color: var(--ink-soft); font-size: 0.98rem; }
+.abroad { 
+  margin-top: 24px; 
+  background: linear-gradient(135deg, var(--card-navy) 0%, #1E293B 100%); 
+  color: #fff; 
+  border-radius: 24px; 
+  padding: 24px 28px; 
+  font-size: 1.05rem;
+  box-shadow: 0 12px 30px rgba(15,23,42,0.12);
+}
+.abroad b { color: #FFB366; }
+
+/* FAQ Accordion */
+details { 
+  border: 1px solid var(--line); 
+  border-radius: 18px;
+  background: var(--panel);
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+details[open] {
+  border-color: var(--blue-text);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+}
+summary { 
+  cursor: pointer; 
+  list-style: none; 
+  position: relative; 
+  padding: 20px 54px 20px 24px; 
+  font-weight: 700; 
+  font-size: 1.08rem; 
+  color: var(--ink);
+  user-select: none;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: "+"; 
+  position: absolute; 
+  right: 20px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 32px; 
+  height: 32px; 
+  border-radius: 50%; 
+  background: var(--sky); 
+  color: var(--ink);
+  display: grid; 
+  place-items: center; 
+  font-size: 1.3rem; 
+  font-weight: 600; 
+  line-height: 1; 
+  transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+details[open] summary::after { 
+  transform: translateY(-50%) rotate(45deg); 
+  background: var(--blue);
+  color: #fff;
+}
+details p { 
+  padding: 0 24px 24px; 
+  color: var(--ink-soft); 
+  max-width: 44em; 
+  line-height: 1.65;
+  font-size: 1rem;
+}
+
+/* Final CTA Section */
+.final { 
+  background: linear-gradient(150deg, #0B132B 0%, #0072C6 100%); 
+  color: #fff; 
+  padding: 80px 0; 
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.final::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255,127,0,0.12) 0%, transparent 60%);
+  pointer-events: none;
+}
+.final h2 { 
+  max-width: 20em; 
+  margin: 0 auto; 
+  font-size: clamp(2rem, 4.5vw, 3rem);
+}
+.final p.lead { 
+  margin: 18px auto 0; 
+  opacity: 0.92; 
+  max-width: 36em; 
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+.final .btn-wa { 
+  margin: 32px auto 0; 
+  max-width: 440px; 
+}
+.final .call { 
+  margin-top: 18px; 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 8px;
+  min-height: 44px; 
+  font-weight: 700; 
+  color: rgba(255,255,255,0.95);
+  font-size: 1.02rem;
+  transition: opacity 0.2s ease;
+}
+.final .call:hover { opacity: 1; text-decoration: underline; }
+
+/* Footer */
+footer { 
+  padding: 36px 0 48px; 
+  font-size: 0.9rem; 
+  color: var(--ink-muted); 
+  border-top: 1px solid var(--line);
+  background: var(--panel);
+}
+footer p + p { margin-top: 12px; line-height: 1.6; }
+
+/* Mobile Sticky Bar */
+.bar {
+  position: fixed; 
+  left: 14px; 
+  right: 14px; 
+  bottom: 14px; 
+  z-index: 1000; 
+  display: flex; 
+  gap: 12px; 
+  align-items: stretch;
+  padding: 8px;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 999px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.3);
+}
+.bar .btn-wa { 
+  flex: 1; 
+  width: auto; 
+  min-height: 50px; 
+  font-size: 0.98rem; 
+  padding: 10px 20px; 
+  box-shadow: none; 
+}
+.bar .callbtn {
+  flex: none; 
+  width: 50px; 
+  height: 50px;
+  display: grid; 
+  place-items: center; 
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2); 
+  background: rgba(255,255,255,0.1); 
+  color: #fff;
+  transition: background 0.2s ease;
+}
+.bar .callbtn:hover { background: rgba(255,255,255,0.2); }
+.bar .callbtn svg { width: 22px; height: 22px; fill: currentColor; }
+
+/* Responsive Media Queries */
+@media (max-width: 719px) {
+  .hide-sm { display: none; }
+}
+
+@media (max-width: 359px) {
+  .wrap { padding: 0 16px; }
+  h1 { font-size: 1.95rem; }
+  .btn-wa { font-size: 0.98rem; padding: 12px 16px; gap: 8px; }
+  .reply { padding: 8px 12px; font-size: 0.88rem; }
+}
+
+@media (min-width: 720px) {
+  .wrap { padding: 0 32px; }
+  .hero { padding: 48px 0 72px; }
+  .hero-grid { grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: start; }
+  .strip ul { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .routes { grid-template-columns: repeat(3, 1fr); }
+  .split { grid-template-columns: 0.8fr 1.2fr; gap: 48px; }
+  .btn-wa { width: auto; }
+  .chat-cta .btn-wa { width: 100%; }
+  section { padding: 80px 0; }
+}
+
+@media (min-width: 900px) {
+  body { padding-bottom: 0; }
+  .bar { display: none; }
+  .hero-grid { gap: 64px; }
+  .split { gap: 64px; }
+  section { padding: 96px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .msg, .typing i, .fade-up { animation: none !important; transition: none !important; transform: none !important; opacity: 1 !important; }
+  .btn-wa, summary::after, .reply, .who, .route, .doc, .tile { transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="top" id="header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Quick Degree">
+      <span class="mark" aria-hidden="true"></span>
+      <b>QUICK DEGREE</b>
+    </a>
+    <div class="top-right-nav">
+      <ul class="nav-links">
+        <li><a href="#s-you">Who We Help</a></li>
+        <li><a href="#s-routes">Routes</a></li>
+        <li><a href="#s-docs">Recognition</a></li>
+        <li><a href="#s-how">Process</a></li>
+        <li><a href="#s-faq">FAQ</a></li>
+      </ul>
+      <a class="top-link wa-link" href="#" data-where="header">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.22-8.23 8.22zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+        <span>WhatsApp us</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="fade-up">
+      <span class="pill">Pick up where you left off</span>
+      <h1>Finish the degree you started, <em>without starting over.</em></h1>
+      <p class="sub">Credit transfer, one sitting exam guidance and online study through UGC-recognised, NAAC-accredited universities. Keep working. Study from the UAE, India or anywhere.</p>
+      <ul class="checks hide-sm">
+        <li>Free degree pathway check with an education consultant</li>
+        <li>We review your transcripts and credits before recommending anything</li>
+        <li>Offices in Dubai and Bengaluru</li>
+      </ul>
+    </div>
+
+    <div class="chat-card fade-up stagger-1">
+      <div class="chat">
+        <div class="chat-head">
+          <span class="av"><span class="mark" aria-hidden="true"></span></span>
+          <div>
+            <b>Quick Degree advisor</b>
+            <span>Education consultants, Dubai and Bengaluru</span>
+          </div>
+        </div>
+        <div class="chat-body" id="log" role="log" aria-live="polite">
+          <div class="msg them">Hi, welcome to Quick Degree. Where did you leave your degree?</div>
+        </div>
+        <div class="replies" role="group" aria-label="Where did you leave your degree?" id="replies">
+          <button type="button" class="reply" aria-pressed="false" data-key="y1">Year 1</button>
+          <button type="button" class="reply" aria-pressed="false" data-key="y2">Year 2</button>
+          <button type="button" class="reply" aria-pressed="false" data-key="y3">Year 3</button>
+          <button type="button" class="reply" aria-pressed="false" data-key="fin">Final year or backlogs</button>
+          <button type="button" class="reply" aria-pressed="false" data-key="dip">Diploma</button>
+          <button type="button" class="reply" aria-pressed="false" data-key="ns">Not sure</button>
+        </div>
+      </div>
+      <div class="chat-cta">
+        <a class="btn-wa wa-link" href="#" data-where="hero">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.22-8.23 8.22zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+          <span>Get my free pathway check</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <ul>
+      <li class="fade-up"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/></svg>UGC-recognised, NAAC-accredited universities</li>
+      <li class="fade-up stagger-1"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2 19h20"/></svg>Study while you work, from anywhere</li>
+      <li class="fade-up stagger-2"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Teams in Dubai and Bengaluru</li>
+    </ul>
+  </div>
+</div>
+
+<section id="s-you" aria-labelledby="s-you-head">
+  <div class="wrap">
+    <div class="sec-head fade-up">
+      <h2 id="s-you-head">Your education was interrupted, not ended.</h2>
+      <p>These are the people we help most often.</p>
+    </div>
+    <div class="grid">
+      <div class="who fade-up"><h3>Working professionals</h3><p>who need a completed degree for a promotion, a new role or visa eligibility.</p></div>
+      <div class="who fade-up stagger-1"><h3>Students with discontinued studies</h3><p>who completed one, two or three years and had to stop.</p></div>
+      <div class="who fade-up stagger-2"><h3>Students with backlogs</h3><p>with pending papers or an incomplete final year.</p></div>
+      <div class="who fade-up stagger-3"><h3>Returning learners</h3><p>who have been away from education for years and are ready to return.</p></div>
+      <div class="who fade-up stagger-4"><h3>Expatriate professionals in the Gulf</h3><p>who need a recognised qualification and attested documents.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="s-routes" class="band" aria-labelledby="s-routes-head">
+  <div class="wrap">
+    <div class="sec-head fade-up">
+      <h2 id="s-routes-head">Three routes to a recognised degree.</h2>
+      <p>After reviewing your record, we recommend only the route that genuinely fits your profile.</p>
+    </div>
+    <div class="routes">
+      <article class="route r1 fade-up">
+        <span class="no">ROUTE ONE</span>
+        <h3>Credit transfer</h3>
+        <p>We evaluate your academic record and place you in an accredited programme that recognises your prior learning, so you graduate sooner.</p>
+        <span class="best">Best for incomplete degrees and returning after a gap</span>
+      </article>
+      <article class="route r2 fade-up stagger-1">
+        <span class="no">ROUTE TWO</span>
+        <h3>One sitting exam guidance</h3>
+        <p>For eligible students, we assess your standing and guide you through a structured, university-approved examination process.</p>
+        <span class="best">Best for backlogs and an incomplete final year</span>
+      </article>
+      <article class="route r3 fade-up stagger-2">
+        <span class="no">ROUTE THREE</span>
+        <h3>Online and distance study</h3>
+        <p>Fully digital or self-paced programmes from UGC-approved universities, with flexible exam windows and ongoing counsellor support.</p>
+        <span class="best">Best for working professionals and students abroad</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="s-docs" aria-labelledby="s-docs-head">
+  <div class="wrap">
+    <div class="sec-head fade-up">
+      <h2 id="s-docs-head">A degree only helps if it is accepted where you work.</h2>
+      <p>We handle the paperwork end to end so your qualification is recognised wherever your career goes.</p>
+    </div>
+    <div class="grid docs">
+      <div class="doc fade-up"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/></svg><div><h3>Embassy attestation</h3><p>Attestation of academic certificates for use in the UAE and other countries.</p></div></div>
+      <div class="doc fade-up stagger-1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/></svg><div><h3>GCC equivalency</h3><p>Support with the equivalency certificates Gulf employers and authorities ask for.</p></div></div>
+      <div class="doc fade-up stagger-2"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/></svg><div><h3>WES verification</h3><p>Credential evaluation for study, work and immigration in North America.</p></div></div>
+      <div class="doc fade-up stagger-3"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.7 2.7L16.5 9.5"/></svg><div><h3>DataFlow and Quadrabay support</h3><p>Documentation guidance for background and qualification verification.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="s-how" class="band" aria-labelledby="s-how-head">
+  <div class="wrap split">
+    <div class="sec-head fade-up">
+      <h2 id="s-how-head">Your road from first chat to final certificate.</h2>
+      <p>We stay with you at every step.</p>
+    </div>
+    <ol class="road">
+      <li class="fade-up"><b>Free consultation <span class="here">You are here</span></b><span>Share your story and goals with an advisor.</span></li>
+      <li class="fade-up stagger-1"><b>Academic assessment</b><span>We review your transcripts, credits and eligibility.</span></li>
+      <li class="fade-up stagger-2"><b>Pathway recommendation</b><span>We recommend the programme that fits your profile.</span></li>
+      <li class="fade-up stagger-3"><b>Enrolment and documents</b><span>We manage admission, paperwork and follow-ups.</span></li>
+      <li class="fade-up stagger-4"><b>Study and exams</b><span>Ongoing counsellor support keeps you on track.</span></li>
+      <li class="fade-up stagger-4"><b>Degree and beyond</b><span>Certification, attestation and next-step career guidance.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="s-why" aria-labelledby="s-why-head">
+  <div class="wrap">
+    <div class="sec-head fade-up"><h2 id="s-why-head">Why students choose Quick Degree.</h2></div>
+    <div class="grid why">
+      <div class="tile fade-up"><h3>Honest guidance</h3><p>We recommend only pathways that suit your actual academic history and goals.</p></div>
+      <div class="tile fade-up stagger-1"><h3>Accredited university network</h3><p>UGC-recognised, NAAC-accredited universities with approved distance and online programmes.</p></div>
+      <div class="tile fade-up stagger-2"><h3>Support from day one</h3><p>Documentation, enrolment and follow-ups are managed for you.</p></div>
+      <div class="tile fade-up stagger-3"><h3>Two countries, one team</h3><p>Teams in Dubai and Bengaluru support students across India, the UAE and the Gulf.</p></div>
+      <div class="tile fade-up stagger-4"><h3>Flexible payments</h3><p>Instalment options are available through Tabby and Tamara.</p></div>
+    </div>
+    <p class="abroad fade-up"><b>Thinking of studying abroad?</b> We also guide eligible students toward the UK, Canada, USA, Germany and Europe.</p>
+  </div>
+</section>
+
+<section id="s-faq" class="band" aria-labelledby="s-faq-head">
+  <div class="wrap split">
+    <div class="sec-head fade-up"><h2 id="s-faq-head">Questions we hear most.</h2></div>
+    <div class="fade-up stagger-1">
+      <details><summary>I stopped my degree years ago. Can I still complete it?</summary><p>In many cases, yes. Depending on your previous credits and the university, you may be able to resume through credit transfer rather than starting over. A consultation is the best first step.</p></details>
+      <details><summary>Can I study while working full time?</summary><p>Yes. Our distance and online programmes are designed for working professionals, with self-paced study and flexible exam windows.</p></details>
+      <details><summary>Can I study from the UAE or another country?</summary><p>Yes. Online and distance programmes can be pursued from anywhere, and our Dubai team supports students across the Gulf.</p></details>
+      <details><summary>Which universities do you work with?</summary><p>We work with UGC-recognised, NAAC-accredited universities. Your advisor will share the specific options that match your profile.</p></details>
+      <details><summary>Can you help me get my degree attested for a job abroad?</summary><p>Yes. We handle embassy attestation, GCC equivalency and WES verification.</p></details>
+      <details><summary>How do I get started?</summary><p>Message us on WhatsApp to book a free consultation with an advisor.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final" aria-labelledby="s-final">
+  <div class="wrap fade-up">
+    <h2 id="s-final">Tell us where you stopped. We'll show you the route.</h2>
+    <p class="lead">A free consultation with an education consultant. We review your record first and recommend a pathway second.</p>
+    <a class="btn-wa wa-link" href="#" data-where="final">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.22-8.23 8.22zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+      <span>Get my free pathway check</span>
+    </a>
+    <p><a class="call call-link" href="tel:+971502558587" data-where="final-call">Prefer to talk? Call +971 50 255 8587</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Quick Degree | Dubai, UAE and Bengaluru, India</p>
+    <p>Programme availability, eligibility and recognition depend on the partner university and applicable regulations. Please consult an advisor for guidance specific to your profile.</p>
+  </div>
+</footer>
+
+<div class="bar">
+  <a class="btn-wa wa-link" href="#" data-where="sticky">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.22-8.23 8.22zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+    <span>Free pathway check on WhatsApp</span>
+  </a>
+  <a class="callbtn call-link" href="tel:+971502558587" aria-label="Call Quick Degree" data-where="sticky-call">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1l-2.2 2.2z"/></svg>
+  </a>
+</div>
+
+<script>
+(function () {
+  var WA_NUMBER = "971502558587";
+  var BRAND = "Quick Degree";
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var params = new URLSearchParams(window.location.search);
+  var ref = [params.get("utm_source"), params.get("utm_campaign"), params.get("utm_content")]
+    .filter(Boolean).join("/") || "direct";
+
+  var STATES = {
+    y1:  { label: "Year 1", reply: "Thanks. Your first year is a starting point, and we check exactly which credits carry over." },
+    y2:  { label: "Year 2", reply: "Two years is real progress. We check exactly which credits carry over, then recommend the quickest recognised route." },
+    y3:  { label: "Year 3", reply: "You are closer than it feels. We check exactly which credits carry over and what is left to complete." },
+    fin: { label: "Final year or backlogs", reply: "Pending papers or an unfinished final year can be assessed for an exam-based route. We check your eligibility with you." },
+    dip: { label: "Diploma", reply: "A diploma can be the starting point for a B.Tech upgrade route. We confirm the exact entry point with you." },
+    ns:  { label: "Not sure", reply: "No problem. Tell us what you remember, or send a photo of a marksheet, and we will work out where you stand." }
+  };
+  var ME = {
+    y1: "I stopped after Year 1", y2: "I stopped after Year 2", y3: "I stopped after Year 3",
+    fin: "I have backlogs or an unfinished final year", dip: "I have a diploma", ns: "I am not sure where I stopped"
+  };
+
+  var current = null, timer = null;
+  var log = document.getElementById("log");
+  var buttons = Array.prototype.slice.call(document.querySelectorAll(".reply"));
+
+  function bubble(cls, text) {
+    var d = document.createElement("div");
+    d.className = "msg " + cls + " dyn";
+    d.textContent = text;
+    log.appendChild(d);
+    log.scrollTop = log.scrollHeight;
+    return d;
+  }
+  function clearDyn() {
+    Array.prototype.slice.call(log.querySelectorAll(".dyn")).forEach(function (n) { n.remove(); });
+  }
+
+  function message() {
+    var m = "Hi " + BRAND + ", I'd like a free degree pathway check.";
+    if (current) m += "\nWhere I stopped: " + STATES[current].label;
+    m += "\nRef: " + ref;
+    return m;
+  }
+  function refreshLinks() {
+    var h = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(message());
+    Array.prototype.forEach.call(document.querySelectorAll(".wa-link"), function (a) {
+      a.setAttribute("href", h); a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
+    });
+  }
+  function track(name, data) {
+    try { if (window.dataLayer) window.dataLayer.push({ event: "quickdegree_" + name.toLowerCase(), detail: data || {} }); } catch (e) {}
+    try { if (window.fbq) window.fbq("trackCustom", "QuickDegreeLP_" + name, data || {}); } catch (e) {}
+  }
+
+  function choose(key) {
+    current = key;
+    if (timer) { clearTimeout(timer); timer = null; }
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-key") === key)); });
+    clearDyn();
+    bubble("me", ME[key]);
+    var t = document.createElement("div");
+    t.className = "typing dyn"; t.setAttribute("aria-hidden", "true");
+    t.innerHTML = "<i></i><i></i><i></i>";
+    log.appendChild(t);
+    log.scrollTop = log.scrollHeight;
+    function showReply() {
+      t.remove();
+      bubble("them", STATES[key].reply);
+      timer = null;
+    }
+    if (reduce) showReply(); else timer = setTimeout(showReply, 650);
+    refreshLinks();
+    track("Situation", { situation: STATES[key].label });
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () { choose(b.getAttribute("data-key")); });
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll(".wa-link"), function (a) {
+    a.addEventListener("click", function () {
+      var d = { where: a.getAttribute("data-where"), situation: current ? STATES[current].label : "none", ref: ref };
+      try { if (window.fbq) window.fbq("track", "Contact", d); } catch (e) {}
+      track("WhatsAppClick", d);
+    });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".call-link"), function (a) {
+    a.addEventListener("click", function () { track("CallClick", { where: a.getAttribute("data-where"), ref: ref }); });
+  });
+
+  refreshLinks();
+
+  // Scroll Header Effect
+  var header = document.getElementById("header");
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 20) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  }, { passive: true });
+
+  // IntersectionObserver for Scroll Fade-up Animations
+  if (!reduce && "IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
+
+    Array.prototype.forEach.call(document.querySelectorAll(".fade-up"), function (el) {
+      observer.observe(el);
+    });
+  } else {
+    Array.prototype.forEach.call(document.querySelectorAll(".fade-up"), function (el) {
+      el.classList.add("in-view");
+    });
+  }
+})();
+</script>
+</body>
+</html>
